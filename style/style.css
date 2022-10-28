@@ -155,7 +155,6 @@ button {
     color: #323232;
     max-width: 245px;
     padding-bottom: 14px;
-    /* команды не работают, кроме padding  */
 }
 
 .home__brand--section {
@@ -218,7 +217,6 @@ button {
     font-size: 18px;
     background: #fff;
 
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -1533,7 +1531,6 @@ button {
     max-width: 695px;
 }
 
-/* С М И !!!*/
 
 .smi__img {
     position: relative;
@@ -1875,7 +1872,6 @@ button {
     }
 }
 
-/*Burger menu start*/
 
 #burger,
 [for=burger] {
@@ -1936,7 +1932,6 @@ button {
     }
 }
 
-/*Burger menu end*/
 @media (max-width:1160px) {
 
     .master__furniture1,
@@ -2096,4 +2091,13 @@ button {
         justify-content: center;
     }
 }
-/*Наконецто конец*/
+
+
+@media (max-width:462px) {
+    .history__box h2 {
+        font-size: 30px;
+    }
+    .history__box h1 {
+        font-size: 30px;
+    }
+}
