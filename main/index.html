@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../assets/img/IMG_Logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Рестраврация мебеля</title>
 </head>
 
@@ -42,7 +43,7 @@
     <main>
         <section class="home__first--section">
             <div class="container">
-                <div class="home__fs--box">
+                <div data-aos="fade-up" data-aos-duration="1500" class="home__fs--box">
                     <div class="home__fs--left-box">
                         <img src="../assets/img/first__section-img.png" alt="">
                     </div>
@@ -64,17 +65,17 @@
         <section class="home__brand--section">
             <div class="container">
                 <div class="home__brand__box">
-                    <div class="home__brand__box--top">
+                    <div data-aos="zoom-in-right" class="home__brand__box--top">
                         <h1>NIKASON BRAND это</h1>
                     </div>
                     <div class="home__brand__box--bottom">
-                        <div class="home__brand--p">
+                        <div data-aos="zoom-in-right" class="home__brand--p">
                             <p>Производство авторской мебели из массива</p>
                         </div>
-                        <div class="home__brand--p">
+                        <div data-aos="zoom-in" class="home__brand--p">
                             <p>Реставрация, редизайн, ремонт деревянной мебели</p>
                         </div>
-                        <div class="home__brand--p">
+                        <div data-aos="zoom-in-left" class="home__brand--p">
                             <p>Производство мебели по индивидуальным размерам
                             </p>
                         </div>
@@ -84,11 +85,12 @@
         </section>
         <section class="home__10__years__section">
             <div class="container">
-                <div class="home__10y__box">
+                <div data-aos="flip-left" class="home__10y__box">
                     <div class="home__10y__box--h1">
                         <h1>Более 10 лет мы производим</h1>
                     </div>
-                    <div class="home__10y__box--img ">
+                    <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+                        data-aos-duration="500" class="home__10y__box--img ">
                         <ul>
                             <li class="home__10y--list">
                                 <img src="../assets/img/door-2 1.png" alt="мебели">
@@ -130,9 +132,10 @@
                 </div>
             </div>
         </section>
-        <section data-aos="fade-up" data-aos-duration="3000" class="home__nikason__section">
+        <section class="home__nikason__section">
             <div class="container">
-                <div class="home__nikason__box">
+                <div data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos="fade-up"
+                    data-aos-duration="1000" class="home__nikason__box">
 
                     <div class="home__nikason__brand--box">
                         <div class="home__nikason__box--img">
@@ -164,10 +167,11 @@
                 <div class="home__furniture__zakaz__box">
                     <h1>Наши услуги</h1>
                     <div class="home__furniture__zakaz1">
-                        <div class="home__furniture__img">
+                        <div data-aos="zoom-in" class="home__furniture__img">
                             <img src="../assets/img/furniture__zakaz_5907.png" alt="">
                         </div>
-                        <div class="home__furniture__text">
+                        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                            class="home__furniture__text">
                             <h3>Мебель на заказ</h3>
                             <p>Мебель под заказ по индивидуальным размерам это гарантия отличного качества,
                                 долговечность, экологичность и эксклюзивность наших изделий.
@@ -183,10 +187,11 @@
             <div class="container">
                 <div class="home__furniture__zakaz__box2">
                     <div class="home__furniture__zakaz2">
-                        <div class="home__furniture__img2">
+                        <div data-aos="zoom-in" class="home__furniture__img2">
                             <img src="../assets/img/furniture__zakaz--2.png" alt="">
                         </div>
-                        <div class="home__furniture__text2">
+                        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                            class="home__furniture__text2">
                             <h3>Мастер-классы</h3>
                             <p>Что делать, если память о предках хочется сохранить, но к вашему интерьеру старая и
                                 испорченная мебель не подходит?
@@ -201,7 +206,7 @@
         </section>
         <section class="home__Guarantee__section">
             <div class="container">
-                <div class="guarantee__box__1">
+                <div data-aos="flip-left" class="guarantee__box__1">
                     <div class="guarantee__box">
                         <h1>Гарантия качества мебели от NIKASON BRAND</h1>
                         <p>На каждое изделие ставим авторский логотип (клеймо) как знак качества и узнаваемости мастера.
@@ -215,7 +220,7 @@
     </main>
     <footer class="footer" id="footer">
         <div class="container">
-            <div class="footer__box">
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="footer__box">
                 <ul>
                     <li><a class="home__footer--list-item" href="#">ИП Колодезников-Матчитов Н.И.</li></a>
                     <li><a class="home__footer--list-item" href="#">ИНН 143515646663</li></a>
@@ -246,6 +251,16 @@
             </div>
         </div>
     </footer>
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
