@@ -7,12 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <link rel="icon" href="../assets/img/IMG_Logo.png">
     <title>О нас</title>
 </head>
 
 <body>
     <header class="home__header">
         <div class="container">
+            <input type="checkbox" id="burger">
+            <label for="burger"></label>
             <nav class="home__nav">
                 <ul class="header__list--1">
                     <li><a class="home__header--list-item" href="../main/master.html">Мастер-классы</a></li>
@@ -108,19 +112,16 @@
                         <p>О нашей мастерской пишут многие издания Якутии</p>
                     </div>
                     <div class="smi__img">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                              <div class="swiper-slide2"><img src="../assets/img/СМИ__1.png" alt=""></div>
-                              <div class="swiper-slide2"><img src="../assets/img/СМИ__2.png" alt=""></div>
-                              <div class="swiper-slide2"><img src="../assets/img/СМИ__3.png" alt=""></div>
-                              <div class="swiper-slide2"><img src="../assets/img/СМИ__4.png" alt=""></div>
-                            </div>
-                          </div>
+                                <div class="swiper-slide2"><img src="../assets/img/СМИ__1.png" alt=""></div>
+                                <div class="swiper-slide2"><img src="../assets/img/СМИ__2.png" alt=""></div>
+                                <div class="swiper-slide2"><img src="../assets/img/СМИ__3.png" alt=""></div>
+                                <div class="swiper-slide2"><img src="../assets/img/СМИ__4.png" alt=""></div>
+                            
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <section class="request__section">
             <div class="container">
                 <div class="request__box">
@@ -183,10 +184,10 @@
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {});
+        var swiper = new Swiper(".mySwiper", {});
 
 
-      
+
     </script>
 </body>
 
