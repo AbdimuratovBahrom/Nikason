@@ -1882,23 +1882,31 @@ button {
 @media screen and (max-width: 992px) {
     [for=burger] {
         display: block;
-        width: 30px;
-        right: 20px;
+        width: 60px;
+        right: 30px;
         top: 10px;
+        position: fixed;
     }
 
     [for=burger]::before {
         content: '☰';
+        color:  #57463A;
+        background: #fff;
+        padding: 15px 20px;
+        border-radius: 40px;    
+        
     }
 
     .home__nav {
+        position: fixed;
         display: none;
         top: 0;
         margin-top: 30px;
-        background: #E5E5E5;
+        background: #e5e5e5;
         width: 80%;
         user-select: none;
         flex-direction: column;
+        border-radius: 10px;
     }
 
     .home__nav ul {
@@ -1919,6 +1927,7 @@ button {
 
     #burger:checked+[for=burger]::before {
         content: '⮾';
+        color:  #57463A;
     }
 }
 
@@ -2099,5 +2108,18 @@ button {
     }
     .history__box h1 {
         font-size: 30px;
+    }
+}
+
+@media (max-width:475px) {
+    .master__120__years__box button {
+        display: none;
+    }    
+}
+
+@media (max-width: 475px) {
+    .second__life--box h1  {
+        font-size: 28px;
+        text-align: center;
     }
 }
