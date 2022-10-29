@@ -1876,6 +1876,7 @@ button {
 #burger,
 [for=burger] {
     display: none;
+    
 }
 
 
@@ -1893,11 +1894,12 @@ button {
         color:  #57463A;
         background: #fff;
         padding: 15px 20px;
-        border-radius: 40px;    
+        border-radius: 40px;
         
     }
 
     .home__nav {
+        z-index: 100;
         position: fixed;
         display: none;
         top: 0;
